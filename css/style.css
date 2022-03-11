@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*------*/
+/*---------*/
+.allPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.allPage .leftBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 100px 0px 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: 2px solid #E5E5E5;
+  position: sticky;
+  height: 750px;
+}
+.allPage .leftBar li {
+  color: #B4977B;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 65px;
+}
+.allPage .leftBar li a {
+  color: #B4977B;
+  font-family: "Barlow";
+}
+.allPage .leftBar li a:hover {
+  color: #8f7a66;
+}
+.allPage .leftBar button {
+  width: 58px;
+  height: 79px;
+  border: 2px solid #B4977B;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 45px;
+  color: #B4977B;
+  margin-top: 50px;
+}
+.allPage .leftBar button:hover {
+  background-color: #B4977B;
+  color: white;
+}
+.allPage .leftBar .kasmir {
+  color: #050215;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  padding-bottom: 35px;
+}
+
+.containerFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 100px;
+}
+.containerFirst .leftFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.containerFirst .leftFirst .upCont {
+  position: relative;
+}
+.containerFirst .leftFirst .upCont img {
+  height: 600px;
+  width: 425px;
+}
+.containerFirst .leftFirst .upCont .hair {
+  width: 517px;
+  height: 117px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  top: 484px;
+  right: -57px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.containerFirst .leftFirst .downCont {
+  margin-top: 53px;
+}
+.containerFirst .leftFirst .downCont a {
+  margin-left: 35px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #050215;
+}
+.containerFirst .leftFirst .downCont a:hover {
+  color: #0d0730;
+}
+.containerFirst .rightFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 25px;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.containerFirst .rightFirst .upRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.containerFirst .rightFirst .upRight .upRightLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.containerFirst .rightFirst .upRight .upRightLeft a {
+  margin-left: 55px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #050215;
+}
+.containerFirst .rightFirst .upRight .upRightLeft a:hover {
+  color: #B4977B;
+}
+.containerFirst .rightFirst .upRight .upRightLeft svg {
+  margin-left: 35px;
+}
+.containerFirst .rightFirst .downRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-left: 26px;
+}
+.containerFirst .rightFirst .downRight .bigRelax {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  margin-top: 25px;
+  color: #050215;
+}
+.containerFirst .rightFirst .downRight .smallRelax {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 25px;
+  margin-left: 10px;
+  color: rgba(5, 2, 21, 0.75);
+}
+.containerFirst .rightFirst .downRight button {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 179.5%;
+  /* or 32px */
+  color: #FFFFFF;
+  width: 178px;
+  height: 60px;
+  background: #B4977B;
+  border-radius: 50px;
+  margin-top: 25px;
+}
+.containerFirst .rightFirst .downRight button:hover {
+  background: #FFFFFF;
+  color: #B4977B;
+  border: 1px solid #B4977B;
+}
+
+span {
+  background-color: #8f7a66 !important;
+}
